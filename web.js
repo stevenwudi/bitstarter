@@ -11,7 +11,7 @@ var buffer = new Buffer(fs.readFileSync(file));
 app.use(express.logger());
 
 app.get('/', function(request, response) {
-response.send("Hi");
+response.send('Hi');
 });
 
 
