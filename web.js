@@ -1,6 +1,8 @@
 var express = require('express');
 var app = express();
-var buffer = new Buffer(fs.readFileSync('index.html'));
+var fs=require('fs');
+file='index.hmtl';
+var buffer = new Buffer(fs.readFileSync(file));
 
 
 
