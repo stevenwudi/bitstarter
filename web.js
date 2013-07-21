@@ -3,7 +3,7 @@ var express = require('express');
 var app = express.createServer(express.logger());
 var fs=require('fs');
 
-var file='index.hmtl';
+var file='index.html';
 
 var buffer = new Buffer(fs.readFileSync(file));
 
